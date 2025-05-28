@@ -1,11 +1,12 @@
 import './App.css'
-import Dev from './pages/dev'
+import Dev from './pages/Dev'
 
 function App() {
 
   return (
     <>
-   <Dev></Dev>
+    <Dev>
+    </Dev>
     </>
   )
 }
