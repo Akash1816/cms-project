@@ -1,14 +1,7 @@
-import './App.css'
-import About from './pages/About'
 
-function App() {
-  
 
+export default function App() {
   return (
-    <>
-        <About></About>
-    </>
+
   )
 }
-
-export default App
