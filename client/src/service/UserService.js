@@ -31,3 +31,6 @@ class UserService {
         return false;  
     }
 }
+
+const userService = new UserService();
+export default userService;
