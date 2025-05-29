@@ -3,20 +3,20 @@ import Swal from 'sweetalert2';
 import { useContext } from 'react';
 import AuthContext from '../context/AuthContext';
 
-export default function Login() {
+export default function Register() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const { login } = useContext(AuthContext);
+    const { register } = useContext(AuthContext);
 
     function handlesubmit(event) {
         event.preventDefault();
-        login(email,password);
+        register(email,password);
     }
 
     return (
         <div className="flex flex-col justify-center items-center w-screen h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-                <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Login</h2>
+                <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Register</h2>
                 <form onSubmit={handlesubmit}
                     className="space-y-6">
                     <input type="email" placeholder="Email"
@@ -34,7 +34,7 @@ export default function Login() {
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                         required/>
                     <button type="submit" className="w-full bg-blue-600 text-red-500 py-2 rounded-lg hover:bg-blue-700 transition">
-                        Login
+                        Register
                     </button>
 
                 </form>

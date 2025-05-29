@@ -1,8 +1,9 @@
 import {createContext,useState} from 'react';
 import {useNavigate} from 'react-router-dom'
-const AuthContext = createContext();
-import userService from client/src/service/UserService.js
+import userService from 'client/src/service/UserService.js'
 import Swal from 'sweetalert2';
+
+const AuthContext = createContext();
 export function AuthProvider({children}){
     const [isauth,setIsAuth] = useState(false);
     const navigate = useNavigate();
@@ -65,5 +66,4 @@ export function AuthProvider({children}){
         </AuthContext.Provider>
     )
 }
-export {AuthProvider};
 export default AuthContext;
