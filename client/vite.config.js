@@ -7,5 +7,5 @@ export default defineConfig({
   server:{
     allowedHosts:["5173-akash1816-cms-project-4mnbr6d2u8.app.codeanywhere.com"]
   },
-  plugins: [react(),tailwindcss()],
+
 })
