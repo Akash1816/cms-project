@@ -6,7 +6,6 @@ import Dev from '../pages/Dev';
 import Login from '../pages/Login';
 import Logout from '../pages/Logout';
 import Register from '../pages/Register';
-import NetflixBookStore from '../mockbooks/NetflixBookStore';
 
 export default function AppRoutes() {
     return (
@@ -14,7 +13,7 @@ export default function AppRoutes() {
             <Route path="/"
                 element={<BasicLayouts/>}>
                 <Route index
-                    element={<About/>}/>
+                    element={<Home/>}/>
                 <Route path="/Register"
                     element={<Register/>}/>
                 <Route path="/Login"
@@ -23,6 +22,8 @@ export default function AppRoutes() {
                     element={<Logout/>}/>
                 <Route path="/Dev"
                     element={<Dev/>}/>
+                <Route path="/About"
+                    element={<About/>}/>
             </Route>
         </Routes>
     );

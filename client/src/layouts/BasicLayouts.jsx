@@ -4,7 +4,7 @@ import { FcNook } from 'react-icons/fc';
 function BasicLayouts() {
 	return (
 		<>
-			<header className="fixed w-screen z-20 bg-white text-black py-4 shadow-lg flex flex-col sm:flex-row items-center justify-between px-6">
+			<header className="fixed w-screen z-15 bg-white text-black py-2 shadow-lg flex flex-col sm:flex-row items-center justify-between px-6">
 				<div className="text-2xl font-semibold flex items-center gap-2">
 					<span role="img" aria-label="notes">
 						<Link to={'/Dev'}>
@@ -25,7 +25,7 @@ function BasicLayouts() {
 			<main className="h-screen bg-white">
 				<Outlet />
 			</main>
-			<footer className="fixed z-30 w-screen bottom-0 bg-white text-gray-600 py-4 text-center mt-8 border-t shadow">
+			<footer className="fixed z-15 w-screen bottom-0 bg-white text-gray-600 py-2 text-center mt-8 border-t shadow">
 				© {new Date().getFullYear()} Notes App. All rights reserved.
 			</footer>
 		</>

@@ -20,7 +20,7 @@ function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
             <img
-              src="https://via.placeholder.com/500"
+              src="https://images.unsplash.com/photo-1534531409543-069f6204c5b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D"
               alt="Story 1"
               className="w-full h-64 object-cover rounded-md mb-4"
             />
@@ -31,7 +31,7 @@ function Home() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
             <img
-              src="https://via.placeholder.com/500"
+              src="https://plus.unsplash.com/premium_photo-1664461663120-b39152ba92ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGpvdXJuZXl8ZW58MHx8MHx8fDA%3D"
               alt="Story 2"
               className="w-full h-64 object-cover rounded-md mb-4"
             />
@@ -42,7 +42,7 @@ function Home() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
             <img
-              src="https://via.placeholder.com/500"
+              src="https://images.unsplash.com/photo-1546778316-dfda79f1c84e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGN1bHR1cmV8ZW58MHx8MHx8fDA%3D"
               alt="Story 3"
               className="w-full h-64 object-cover rounded-md mb-4"
             />
@@ -59,17 +59,17 @@ function Home() {
         <h2 className="text-4xl font-semibold text-center text-indigo-700 mb-8">Our Gallery</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <img
-            src="https://via.placeholder.com/500"
+            src="https://images.unsplash.com/photo-1726064855870-9a438a9517bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MzV8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"
             alt="Gallery Image 1"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
           <img
-            src="https://via.placeholder.com/500"
+            src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"
             alt="Gallery Image 2"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
           <img
-            src="https://via.placeholder.com/500"
+            src="https://images.unsplash.com/photo-1601132359864-c974e79890ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUyfHx0ZWNobm9sb2d5fGVufDB8fDB8fHww"
             alt="Gallery Image 3"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
@@ -80,8 +80,8 @@ function Home() {
       <footer className="text-center py-12 bg-blue-100">
         <p className="text-gray-600 text-xl">
           Crafted with love. Reach us at{" "}
-          <a href="mailto:contact@ourworld.com" className="text-indigo-700 hover:text-indigo-900">
-            contact@ourworld.com
+          <a href="hak181318@gmail.com" className="text-indigo-700 hover:text-indigo-900">
+          hak181318@gmail.com
           </a>
         </p>
       </footer>
