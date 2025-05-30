@@ -7,11 +7,11 @@ function BasicLayouts() {
 			<header className="fixed w-screen z-20 bg-white text-black py-4 shadow-lg flex flex-col sm:flex-row items-center justify-between px-6">
 				<div className="text-2xl font-semibold flex items-center gap-2">
 					<span role="img" aria-label="notes">
-						<Link to={'/Home'}>
+						<Link to={'/Dev'}>
 							<FcNook />
 						</Link>
 					</span>{' '}
-					notes
+					HAK
 				</div>
 				<div className="mt-3 sm:mt-0 flex gap-3">
 					<div className="bg-white border-2 text-black px-4 py-2 rounded shadow cursor-pointer">

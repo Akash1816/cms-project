@@ -13,8 +13,6 @@ export default function AppRoutes() {
             <Route path="/"
                 element={<BasicLayouts/>}>
                 <Route index
-                    element={<Home/>}/>
-                <Route path="/About"
                     element={<About/>}/>
                 <Route path="/Register"
                     element={<Register/>}/>

@@ -15,12 +15,12 @@ export default function About() {
         
                 <div className="flex gap-4 mb-8 flex-wrap justify-center lg:justify-center lg:gap-8">
                   <img
-                    src="/images/team.jpg"
+                    src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"
                     alt="Our Team"
                     className="w-full max-w-xs rounded-lg shadow-2xl transform transition duration-500 hover:scale-105 lg:max-w-md"
                   />
                   <img
-                    src="/images/office.jpg"
+                    src="https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"
                     alt="Office Space"
                     className="w-full max-w-xs rounded-lg shadow-2xl transform transition duration-500 hover:scale-105 lg:max-w-md"
                   />
