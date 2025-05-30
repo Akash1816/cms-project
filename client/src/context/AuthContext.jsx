@@ -11,7 +11,7 @@ export function AuthProvider({children}){
        try{
         userService.authenticate(email,password);
         setIsAuth(true);
-        navigate('/pages/Home');
+        navigate('/Dev');
         Swal.fire(
             {
                 title:"Successfull",
