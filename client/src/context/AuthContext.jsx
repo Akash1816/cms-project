@@ -22,7 +22,7 @@ export function AuthProvider({ children }) {
 
     function logout() {
         setIsAuth(false);
-        navigate("/pages/Login");
+        navigate("/Login");
         window.alert("Successfully Logged out");
     }
 
@@ -30,7 +30,7 @@ export function AuthProvider({ children }) {
         try {
             userService.adduser(email, password);
             setIsAuth(true);
-            navigate("/Home");
+            navigate("/Dev");
             window.alert("Successfully Registered & Logged in");
         } catch (error) {
             window.alert(`Invalid: ${error.message}`);
