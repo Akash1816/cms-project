@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import Swal from 'sweetalert2';     
+import React, {useState} from 'react';  
 import { useContext } from 'react';
 import AuthContext from '../context/AuthContext';
 
