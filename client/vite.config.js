@@ -13,7 +13,8 @@ export default defineConfig({
     ],
     build: {
         rollupOptions: {
-            external: ['sweetalert2']
+            external: ['sweetalert2'],
+            input: 'index.html' // Explicitly define entry point
         }
     }
 })
